@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.descendingOrder = void 0;
+exports.getDescendingOrder = exports.descendingOrder = void 0;
 function descendingOrder(n) {
     // take the arg
     // convert it to string
@@ -26,6 +26,13 @@ for (var i = 1; i < 6; i++) {
     randomStrings.push(randomNumber);
 }
 ;
+function getDescendingOrder(n) {
+    return parseInt(n.toString().split('').sort().reverse().join(''));
+}
+exports.getDescendingOrder = getDescendingOrder;
+;
 console.log('random numbers array: ', randomStrings);
 console.log('--- test ---');
 randomStrings.forEach(function (item) { return console.log("".concat(item, " ---> "), descendingOrder(item)); });
+console.log('--- altern solution ---');
+randomStrings.forEach(function (item) { return console.log("".concat(item, " ---> "), getDescendingOrder(item)); });

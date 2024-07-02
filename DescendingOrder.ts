@@ -20,6 +20,15 @@ for(let i = 1; i < 6; i++) {
     console.log('random number ', randomNumber)
     randomStrings.push(randomNumber);
 };
+
+export function getDescendingOrder(n: number): number {
+    return parseInt(n.toString().split('').sort().reverse().join(''))
+};
+
 console.log('random numbers array: ', randomStrings);
 console.log('--- test ---')
 randomStrings.forEach((item: number) => console.log(`${item} ---> `, descendingOrder(item)));
+console.log('--- altern solution ---');
+randomStrings.forEach((item: number) => console.log(`${item} ---> `, getDescendingOrder(item)));
+
+
