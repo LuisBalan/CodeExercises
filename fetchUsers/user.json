@@ -1,0 +1,123 @@
+[
+    {
+      "name": "Alice Johnson",
+      "age": 29,
+      "gender": "Female",
+      "email": "alice.johnson@example.com",
+      "occupation": "Software Engineer",
+      "address": {
+        "street": "123 Maple St",
+        "city": "Springfield",
+        "country": "USA"
+      }
+    },
+    {
+      "name": "Bob Smith",
+      "age": 35,
+      "gender": "Male",
+      "email": "bob.smith@example.com",
+      "occupation": "Graphic Designer",
+      "address": {
+        "street": "456 Oak Ave",
+        "city": "Hometown",
+        "country": "USA"
+      }
+    },
+    {
+      "name": "Charlie Brown",
+      "age": 42,
+      "gender": "Male",
+      "email": "charlie.brown@example.com",
+      "occupation": "Teacher",
+      "address": {
+        "street": "789 Pine Rd",
+        "city": "Anytown",
+        "country": "Canada"
+      }
+    },
+    {
+      "name": "Diana Prince",
+      "age": 30,
+      "gender": "Female",
+      "email": "diana.prince@example.com",
+      "occupation": "Journalist",
+      "address": {
+        "street": "101 Elm St",
+        "city": "Metropolis",
+        "country": "USA"
+      }
+    },
+    {
+      "name": "Edward Green",
+      "age": 50,
+      "gender": "Male",
+      "email": "edward.green@example.com",
+      "occupation": "Doctor",
+      "address": {
+        "street": "202 Birch Blvd",
+        "city": "Smallville",
+        "country": "UK"
+      }
+    },
+    {
+      "name": "Fiona Blue",
+      "age": 28,
+      "gender": "Female",
+      "email": "fiona.blue@example.com",
+      "occupation": "Artist",
+      "address": {
+        "street": "303 Cedar Ct",
+        "city": "Gotham",
+        "country": "Australia"
+      }
+    },
+    {
+      "name": "George King",
+      "age": 37,
+      "gender": "Male",
+      "email": "george.king@example.com",
+      "occupation": "Architect",
+      "address": {
+        "street": "404 Willow Ln",
+        "city": "Atlantis",
+        "country": "New Zealand"
+      }
+    },
+    {
+      "name": "Hannah White",
+      "age": 32,
+      "gender": "Female",
+      "email": "hannah.white@example.com",
+      "occupation": "Chef",
+      "address": {
+        "street": "505 Cherry St",
+        "city": "Fictional City",
+        "country": "Canada"
+      }
+    },
+    {
+      "name": "Ivan Black",
+      "age": 40,
+      "gender": "Male",
+      "email": "ivan.black@example.com",
+      "occupation": "Photographer",
+      "address": {
+        "street": "606 Ash Dr",
+        "city": "Example City",
+        "country": "USA"
+      }
+    },
+    {
+      "name": "Jasmine Red",
+      "age": 27,
+      "gender": "Female",
+      "email": "jasmine.red@example.com",
+      "occupation": "Musician",
+      "address": {
+        "street": "707 Palm Way",
+        "city": "Paradise",
+        "country": "France"
+      }
+    }
+  ]
+  
