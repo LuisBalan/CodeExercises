@@ -26,6 +26,24 @@ const timer = function(time) {
     return timerPromise;
 };
 
+const asyncTimer = async (time) => {
+    const timerPromise = new Promise((resolve, reject) => {
+        if (typeof time !== 'number'){
+            reject('Enter a valid number')
+        } else {
+            setTimeout(() => {
+                resolve('time counting complete!')
+            }, time)
+        }
+    });
+
+    try {
+        timerPromise.then((res) => console.log(res))
+    } catch (e) {
+        console.log(e)
+    }
+
+}
 
 
 // getUpperCase('').then( res => console.log('promise resolution: ', res)).catch(err => console.log(err))
@@ -35,6 +53,7 @@ const timer = function(time) {
 // timer(5000).then(res => console.log(res)).catch( err => console.log(err)); //ok
 // timer('valor').then(res => console.log(res)).catch( err => console.log(err));
 // timer(false).then(res => console.log(res)).catch( err => console.log(err));
+asyncTimer(3000)
 
 
 
